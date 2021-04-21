@@ -2,89 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chris Lawver</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Chris Lawver</title>
 </head>
-
+ 
 <body>
-    <header>
-        <h1>Chris Lawver</h1>
-        <span>Full stack software/web developer</span>
+  <header>
+    <div class="bg zoom c t"></div>
+    <div class="title-box">
+      <div class="title">Chris Lawver</div>
+      <div class="subtitle">Software Engineer</div>
+    </div>
 
-        <nav>
-            <ul id="nav-bar">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-projects">My Projects</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="cta">
+      <div class="about">About</div>
+      <div class="projects">Projects</div>
+      <div class="contact">Contact</div>
+    </div>
+    <!-- ➟ -->
+  </header>
 
-    <main>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <img src="Images\Chris.JPG" alt="Chris Lawver" id="placeholder">
-            <p>Hello there! My name is Chris Lawver and I'm from Cleveland, Ohio. I first started learning to code on my
-                own in 2020. I've always had an interest in the tech industry and I've found that I really enjoy
-                learning new
-                languages and writing code. </p>
+  <main>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <img src="Images\Chris.JPG" alt="Chris Lawver" id="my-pic">
+      <p>Hello there! My name is Chris Lawver and I'm from Cleveland, Ohio. I first started learning to code on my
+        own in 2020. I've always had an interest in the tech industry and I've found that I really enjoy
+        learning new
+        languages and writing code. </p>
 
-            <p>I'm currently attending school at <a href="https://wecancodeit.org/" target="_blank">We Can Code It</a>
-                to become a full stack software/web developer. I'll be graduating in April 2021. I have experience in
-                C#, HTML/CSS, Javascript, and SQL,
-                as well as pushing and pulling repositories using Git Bash and GitHub.</p>
-        </section>
+      <p>I'm currently attending school at <a href="https://wecancodeit.org/" target="_blank">We Can Code It</a>
+        to become a full stack software/web developer. I'll be graduating in April 2021. I have experience in
+        C#, HTML/CSS, Javascript, and SQL,
+        as well as version control using Git Bash and GitHub.</p>
+    </section>
 
-        <section id="my-projects">
-            <h2>My Projects</h2>
-            <div id="project-list">
-                <div class="project-list-items">
-                    <h3><a href="https://github.com/ChrisLawver/fizzbuzz" target="_blank">FizzBuzz</a></h3>
-                    <img class="project-pics" src="Images\fizzbuzz.png" alt="Github">
-                    <span>
-                        A solo project, console application written in C#. A practice game that displays different
-                        messages to the user based on the number that is typed in. Uses conditional statements and
-                        mathematical operators.
-                    </span>
-                </div>
-                <div class="project-list-items">
-                    <h3><a href="https://github.com/ChrisLawver/pizza-shop" target="_blank">Pizza Shop</a></h3>
-                    <img class="project-pics" src="Images\pizzashop.png" alt="Github">
-                    <span>
-                        A solo project, console application written in C#. You can order a pizza, customizing it however
-                        you
-                        want, and it will determine a price depending on what was selected. Uses conditional statements
-                        and loops as well as classes.
-                    </span>
-                </div>
-                <div class="project-list-items">
-                    <h3><a href="https://github.com/ChrisLawver/virtual-pet" target="_blank">Virtual Pet </a></h3>
-                    <img class="project-pics" src="Images\vitualpet.png" alt="Github">
-                    <span>
-                        A group project, console application written in C#. You can create virtual pets, giving them a
-                        name
-                        and
-                        species. And then interact with them in various ways. Uses conditional statements, loops, and
-                        lists as well as multiple classes implementing inheritance. Also implements Test Driven
-                        Development(TDD), with tests using XUnit.
-                    </span>
-                </div>
-            </div>
-        </section>
+    <section id="my-projects">
+      <h2>My Projects</h2>
+      <div id="project-list">
+        <div class="project-list-items">
+          <h3><a href="https://github.com/ChrisLawver/fizzbuzz" target="_blank">FizzBuzz</a></h3>
+          <img class="project-pics" src="Images\fizzbuzz.png" alt="Github">
+          <span>
+            A solo project, console application written in C#. A practice game that displays different
+            messages to the user based on the number that is typed in. Uses conditional statements and
+            mathematical operators.
+          </span>
+        </div>
+        <div class="project-list-items">
+          <h3><a href="https://github.com/ChrisLawver/pizza-shop" target="_blank">Pizza Shop</a></h3>
+          <img class="project-pics" src="Images\pizzashop.png" alt="Github">
+          <span>
+            A solo project, console application written in C#. You can order a pizza, customizing it however
+            you
+            want, and it will determine a price depending on what was selected. Uses conditional statements
+            and loops as well as classes.
+          </span>
+        </div>
+        <div class="project-list-items">
+          <h3><a href="https://github.com/ChrisLawver/virtual-pet" target="_blank">Virtual Pet </a></h3>
+          <img class="project-pics" src="Images\vitualpet.png" alt="Github">
+          <span>
+            A group project, console application written in C#. You can create virtual pets, giving them a
+            name
+            and
+            species. And then interact with them in various ways. Uses conditional statements, loops, and
+            lists as well as multiple classes implementing inheritance. Also implements Test Driven
+            Development(TDD), with tests using XUnit.
+          </span>
+        </div>
+      </div>
+    </section>
 
-        <section id="contacts">
-            <h2>Contacts</h2>
-            <a href="https://github.com/ChrisLawver" target="_blank"><img class="social-links" src="Images\github.png"
-                    alt="Github"></a>
-            <a href="https://www.linkedin.com/in/chris-lawver-a55688104/" target="_blank"><img class="social-links"
-                    src="Images\linkedin.png" alt="linkedin"></a>
-        </section>
-    </main>
+    <section id="my-contacts">
+      <h2>Contact</h2>
+      <p>Email: chris_lawver@yahoo.com</p>
+      <p>Phone: (315)286-3625</p>
+      <div>
+        <a href="https://github.com/ChrisLawver" target="_blank"><img class="social-links" src="Images\github.png"
+            alt="Github"></a>
+        <a href="https://www.linkedin.com/in/chris-lawver" target="_blank"><img class="social-links"
+            src="Images\linkedin.png" alt="linkedin"></a>
+      </div>
+      <h3>Resume (<a href="files\creddle-Resume3.pdf" download>Download</a>)</h3>
+      <iframe id="resume" src="files\creddle-Resume3.pdf" width="700px" height="400px"></iframe>
+    </section>
+  </main>
 
-    <footer>
-        &copy2021 Chris Lawver
-    </footer>
+
+
+  <script src="landing.js"></script>
 </body>
+
 </html>
