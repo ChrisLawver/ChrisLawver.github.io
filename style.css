@@ -98,6 +98,10 @@
   color: gold;
 }
 
+.title:hover, .subtitle:hover{
+  color: gold;
+}
+
 main{
   font-size: 1.2em;
 }
